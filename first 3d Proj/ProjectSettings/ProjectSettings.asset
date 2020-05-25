@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 13
-  productGUID: f497a0c301ccba741beddaa999470bfc
+  productGUID: a9e61e4b61c20324ea24e52d47693fbf
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   defaultScreenOrientation: 4
@@ -12,7 +12,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Learning_Unity1
+  productName: first 3d Proj
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -521,14 +521,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Learning_Unity1
+  metroPackageName: first 3d Proj
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Learning_Unity1
+  metroApplicationDescription: first 3d Proj
   wsaImages: {}
   metroTileShortName: 
   metroCommandLineArgsFile: 
@@ -599,11 +599,12 @@ PlayerSettings:
     daydream:
       daydreamIconForeground: {fileID: 0}
       daydreamIconBackground: {fileID: 0}
-  cloudServicesEnabled: {}
+  cloudServicesEnabled:
+    UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: c8e30278-4450-4e00-8987-fb7a704bdc50
-  projectName: Learning_Unity1
+  cloudProjectId: 725b4ea5-ae76-4356-ae82-0bb81ca8f4f3
+  projectName: first 3d Proj
   organizationId: simonisfiction
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

@@ -1,0 +1,155 @@
+fileFormatVersion: 2
+guid: 5d168198ff020ee4b9abaacd581337d0
+timeCreated: 1590374580
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Camera
+    100002: Cube
+    100004: //RootNode
+    100006: Lava Sim
+    100008: Lava Sim.001
+    100010: Lava Sim.002
+    100012: Lava Sim.003
+    100014: Lava Sim.004
+    100016: Lava Sim.005
+    100018: Plane
+    100020: Plane.001
+    100022: Point
+    100024: Point.001
+    100026: Point.002
+    100028: Point.003
+    400000: Camera
+    400002: Cube
+    400004: //RootNode
+    400006: Lava Sim
+    400008: Lava Sim.001
+    400010: Lava Sim.002
+    400012: Lava Sim.003
+    400014: Lava Sim.004
+    400016: Lava Sim.005
+    400018: Plane
+    400020: Plane.001
+    400022: Point
+    400024: Point.001
+    400026: Point.002
+    400028: Point.003
+    2000000: Camera
+    2300000: Cube
+    2300002: Plane
+    2300004: Plane.001
+    3300000: Cube
+    3300002: Plane
+    3300004: Plane.001
+    4300000: Cube
+    4300002: Plane
+    4300004: Plane.001
+    10800000: Lava Sim
+    10800002: Lava Sim.001
+    10800004: Lava Sim.002
+    10800006: Lava Sim.003
+    10800008: Lava Sim.004
+    10800010: Lava Sim.005
+    10800012: Point
+    10800014: Point.001
+    10800016: Point.002
+    10800018: Point.003
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black Metal
+    second: {fileID: 2100000, guid: 47b6356b373014c4ab8df14f86f6cf5f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Black Reflective Paint
+    second: {fileID: 2100000, guid: 3b6e4dca31fe14c418cb6d35af05b951, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.001
+    second: {fileID: 2100000, guid: 8523fe6c89573294795fd722bb4a01e1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Paint
+    second: {fileID: 2100000, guid: f2df07c1038f47f45aabf7f8c3a8bf4a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
