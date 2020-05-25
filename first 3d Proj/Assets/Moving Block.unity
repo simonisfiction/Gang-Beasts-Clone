@@ -1454,7 +1454,7 @@ GameObject:
   - component: {fileID: 1899318775}
   - component: {fileID: 1899318774}
   m_Layer: 0
-  m_Name: dfdjiCube
+  m_Name: Emu
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
