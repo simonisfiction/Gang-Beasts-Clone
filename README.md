@@ -1,2 +1,2 @@
-# Learning-Unity
-This is a project for the sole purpose of learning unity
+# Gang-Beasts-Clone
+This is going to be a clone of the game Gang Beasts. 
