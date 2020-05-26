@@ -6,8 +6,8 @@ public class PlayerMovement : MonoBehaviour {
     [SerializeField]
     public Rigidbody rb;
 
-    public float lateralSpeed = .3f;
-    public float forwardSpeed = .3f;
+    public float lateralSpeed = .1f;
+    public float forwardSpeed = .1f;
     public float upwardSpeed = .2f;
 
     int countForward = 0;
@@ -22,7 +22,8 @@ public class PlayerMovement : MonoBehaviour {
         rb = GetComponent<Rigidbody>();
         rb.useGravity = true;
         rb.maxAngularVelocity = 1.0f;
-     
+        Physics.gravity = new Vector3(0, -5f, 0);
+
     }
 
  
@@ -33,7 +34,7 @@ public class PlayerMovement : MonoBehaviour {
     void FixedUpdate ()
     {
         //tf.Rotate(270, 90, 0);
-        inputVector = new Vector3(Input.GetAxis("Horizontal") * 20f, rb.velocity.y, Input.GetAxis("Vertical") * 20f);
+        inputVector = new Vector3(Input.GetAxis("Horizontal") * 2f, rb.velocity.y, Input.GetAxis("Vertical") * 2f);
         transform.LookAt(transform.position + new Vector3(inputVector.x, 0, inputVector.z));
         rb.velocity = inputVector;
 
