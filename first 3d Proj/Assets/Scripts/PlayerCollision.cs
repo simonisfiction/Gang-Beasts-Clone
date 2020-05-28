@@ -3,12 +3,14 @@ using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour {
 
+    public PlayerMovement movement;
+
     void OnCollisionEnter(Collision collisionInfo)
     {
        
         if (collisionInfo.collider.tag == "Deadly Surface")
         {
-            Debug.Log("You hit lava, and you died");
+            movement.enabled = false;
         }
     }
 }
