@@ -6,10 +6,10 @@ public class PlayerCollision : MonoBehaviour {
     public PlayerMovement movement;
     
 
-    void OnCollisionEnter(Collision collisionInfo)
+    void OnCollisionEnter(Collision other)
     {
        
-        if (collisionInfo.collider.tag == "Deadly Surface")
+        if (other.collider.tag == "Deadly Surface")
         {
 
             movement.enabled = false;
