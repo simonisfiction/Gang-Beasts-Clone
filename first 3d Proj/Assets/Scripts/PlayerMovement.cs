@@ -70,6 +70,9 @@ public class PlayerMovement : MonoBehaviour {
         {
           rb.AddForce(0, upwardSpeed * Time.deltaTime, 0, ForceMode.VelocityChange);
         }
-       
+        if(rb.position.y < -1)
+        {
+            FindObjectOfType<GameManager>().EndGame();
+        }
     }
 }
