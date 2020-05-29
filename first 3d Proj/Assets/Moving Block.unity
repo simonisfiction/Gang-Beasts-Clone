@@ -633,7 +633,7 @@ GameObject:
   - component: {fileID: 369823601}
   - component: {fileID: 369823603}
   m_Layer: 0
-  m_Name: Text
+  m_Name: Potato
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -741,6 +741,7 @@ MonoBehaviour:
   playerIsDead: 0
   playerTwoIsDead: 0
   enemyIsDead: 0
+  whoWon: {fileID: 1867077962}
   winLevel: {fileID: 727810390}
 --- !u!4 &386758429
 Transform:
@@ -2812,9 +2813,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
-    width: 0.5
-    height: 1
+    y: 0.5
+    width: 1
+    height: 0.5
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -3749,10 +3750,10 @@ Camera:
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.5
+    x: 0
     y: 0
-    width: 0.5
-    height: 1
+    width: 1
+    height: 0.5
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60

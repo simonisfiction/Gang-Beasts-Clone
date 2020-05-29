@@ -6,7 +6,7 @@ PhysicMaterial:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Slippery
-  dynamicFriction: 1
+  dynamicFriction: 0.2
   staticFriction: 0
   bounciness: 0.15
   frictionCombine: 1
