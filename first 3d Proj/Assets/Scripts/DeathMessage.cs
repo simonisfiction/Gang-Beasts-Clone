@@ -13,9 +13,5 @@ public class DeathMessage : MonoBehaviour {
             playerDeathMessage.text = "You Died";
         }
 
-        if(gameManager.enemyIsDead)
-        {
-            playerDeathMessage.text = "You Won";
-        }
 	}
 }

@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour {
     public float restartDelay;
     public bool playerIsDead = false;
     public bool enemyIsDead = false;
-
+    public GameObject winLevel;
 
 	public void EndGame ()
     {
@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour {
     {
         if (gameHasEnded == false)
         {
+            winLevel.SetActive(true);
             enemyIsDead = true;
             gameHasEnded = true;
             Debug.Log("Level Won");
