@@ -1552,7 +1552,7 @@ MonoBehaviour:
   rb: {fileID: 1102802225}
   lateralSpeed: 0.1
   forwardSpeed: 0.1
-  upwardSpeed: 10
+  upwardSpeed: 0
   inputVector: {x: 0, y: 0, z: 0}
 --- !u!114 &1102802228
 MonoBehaviour:
