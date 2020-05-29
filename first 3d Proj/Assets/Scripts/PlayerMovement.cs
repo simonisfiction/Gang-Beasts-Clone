@@ -33,10 +33,10 @@ public class PlayerMovement : MonoBehaviour {
     // Update is called once per framea
     void FixedUpdate ()
     {
-        //tf.Rotate(270, 90, 0);
-        inputVector = new Vector3(Input.GetAxis("Horizontal") * 2f, rb.velocity.y, Input.GetAxis("Vertical") * 2f);
-        transform.LookAt(transform.position + new Vector3(inputVector.x, 0, inputVector.z));
-        rb.velocity = inputVector;
+   //     //tf.Rotate(270, 90, 0);
+   //     inputVector = new Vector3(Input.GetAxis("Horizontal") * 2f, rb.velocity.y, Input.GetAxis("Vertical") * 2f);
+   //     transform.LookAt(transform.position + new Vector3(inputVector.x, 0, inputVector.z));
+   //     rb.velocity = inputVector;
 
 
 
@@ -45,7 +45,7 @@ public class PlayerMovement : MonoBehaviour {
 
 
         // rb.AddForce(0, 0, forwardSpeed * Time.deltaTime);
-        /*        
+               
                 if (Input.GetKey("a"))
                 {
                     rb.AddForce(-lateralSpeed * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
@@ -65,14 +65,11 @@ public class PlayerMovement : MonoBehaviour {
                 {
                     rb.AddForce(0, 0, -forwardSpeed * Time.deltaTime, ForceMode.VelocityChange);
                 }
-                 */
-        if (Input.GetKey("space"))
-        {
-          rb.AddForce(0, upwardSpeed * Time.deltaTime, 0, ForceMode.VelocityChange);
-        }
-        if(rb.position.y < -1)
-        {
-            FindObjectOfType<GameManager>().EndGame();
-        }
+              
+    //    if (Input.GetKey("space"))
+  //      {
+   //       rb.AddForce(0, upwardSpeed * Time.deltaTime, 0, ForceMode.VelocityChange);
+     //   }
+  
     }
 }
