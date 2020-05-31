@@ -1435,6 +1435,7 @@ GameObject:
   - component: {fileID: 727810393}
   - component: {fileID: 727810392}
   - component: {fileID: 727810391}
+  - component: {fileID: 727810394}
   m_Layer: 0
   m_Name: Level Complete
   m_TagString: Untagged
@@ -1494,6 +1495,23 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &727810394
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 727810390}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f2c7d742f8dfc3b45ab82a9747a3b5de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &758778190
 GameObject:
   m_ObjectHideFlags: 0
@@ -2216,7 +2234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5be213331655ab540a60e4bd9c60bd1f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movement: {fileID: 1102802227}
 --- !u!1 &1161353021
 GameObject:
   m_ObjectHideFlags: 0
@@ -3844,7 +3861,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1867077961
 RectTransform:
   m_ObjectHideFlags: 0
